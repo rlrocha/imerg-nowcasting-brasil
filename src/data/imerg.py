@@ -15,7 +15,6 @@ def save_file(file, subdir):
         f = open(file_path,'wb')
         f.write(result.content)
         f.close()
-        # print('contents of URL written to '+file_path)
     except:
         print('requests.get() returned an error code '+str(result.status_code))
 
@@ -26,8 +25,6 @@ def get_files(file_path):
 
     files = [file.strip("\n") for file in files] # remove "\n"
 
-    print(f'Number of files: {len(files)}')
-
     return files
 
 def download_data(file_path, data_path, date_list):
@@ -36,8 +33,6 @@ def download_data(file_path, data_path, date_list):
 
     i = 0
     while(i<len(files)):
-
-        print(f"File: {i}")
 
         file = files[i]
 
