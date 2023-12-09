@@ -38,3 +38,4 @@ Os resultados obtidos pelo modelo U-Net podem ser obtidos pelo notebook [unet-re
 Links úteis:
 - Instituto Nacional de Meteorologia (INMET): [portal](https://portal.inmet.gov.br/).
 - Jupyter Notebook Viewer: [nbviewer](https://nbviewer.org/).
+- Download do modelo: [dropbox](https://www.dropbox.com/scl/fi/ngwvakmytc0rzy6k43taz/model.h5?rlkey=q4hg17kj90q57xm1uixwav45c&dl=0).
